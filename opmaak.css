@@ -1,0 +1,19 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: seagreen;
+}
+
+li a {
+    display: block;
+    color: seashell;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+lia a :hover {
+    background-color: powderblue;
+    color: oldlace;
+}
