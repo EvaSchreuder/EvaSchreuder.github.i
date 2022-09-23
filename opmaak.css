@@ -17,3 +17,13 @@ lia a :hover {
     background-color: powderblue;
     color: oldlace;
 }
+
+li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
