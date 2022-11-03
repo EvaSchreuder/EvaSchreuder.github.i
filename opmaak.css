@@ -12,14 +12,6 @@
   box-sizing: border-box;
 }
 
-/*de afbeelding die mijn achtergrond wordt*/
-body {
-  font-family: sans-serif;
-  background-position: left top;
-  background-image: url("informatica.png");
-  background-attachment: fixed;
-}
-
 /*Logo maken*/
 .logo {
   color: var(--color-white);
