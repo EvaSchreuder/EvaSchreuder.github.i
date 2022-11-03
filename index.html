@@ -1,67 +1,72 @@
-<!DOCTYPE html><!-- de homepage -->
-<html>
-  <head>
-    <title> Home</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="opmaak.css">
-  
-  </style>
+<!DOCTYPE html>
+<html> 
+
+<!--De pagina een titel geven en links toevoegen zodat de opmaak klopt-->
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+  <link rel="stylesheet" href="opmaak.css">
 </head>
+    
+<!--dropdown menu als horizontale 'bar'-->
 <body>
-
-<div>
-  <h1>Wat komt er op deze website?</h1>
-  <p>Hier op deze website ga ik uitleg geven over verschillende onderdelen wat je tegenkomt als je het vak informatica volgt. Ik ga het hebben over het 3-lagenmodel, de fysieke laag, de logische laag en de toepassingenlaag. Veel plezier!
-  <a target="_blank" href="tryit.asp?filename=trycss_text"></p>
-</div>
-
-</body>
-</html>
-
-  </head>
-  <body> 
- 
-    <br>
+<div class="menu-bar">
+    <h3 class="logo">Computer<span>Uitgelegd</span></h3>
     <ul>
-      <li><a href="index.html">Home</a></li> 
+      <li><a href="index.html">Home</a></li>
+      <li><a href="drielagenmodel.html">Drielagenmodel <i class="fas fa-caret-down"></i></a>
+
+          <div class="dropdown-menu">
+              <ul>
+                <li><a href="fysiekelaag.html">Fysieke laag <i class="fas fa-caret-right"></i></a>
+                  
+                    <div class="dropdown-menu-1">
+                      <ul>
+                        <li><a href="index.html">Home</a></li> 
       <li><a href="3-lagenmodel.html">3-lagenmodel</a></li>
       <li><a href="fysiekelaag.html">Fysiekelaag</a></li>
       <li><a href="logische laag.html"> Logische laag</a> </li>
       <li><a href= "toepassingenlaag.html"> Toepassingenlaag</a></li>
-  </ul>
-  
+                      </ul>
+                    </div>
+                  </li>
+                <li><a href="logischelaag.html">Logische laag<i class="fas fa-caret-right"></i></a>
+                    
+                  <div class="dropdown-menu-1">
+                    <ul>
+                      <li><a href="Operating system.html">Operating system</a></li>
+                    </ul>
+                </div>
+                </li>
+                <li><a href="toepassingenlaag.html">Toepassingen laag<i class="fas fa-caret-right"></i></a>
+                
+                    <div class="dropdown-menu-1">
+                        <ul>
+                          <li><a href="Apps en API.html">Apps en API</a></li>
+                        </ul>
+                      </div>
+                    </li>
+              </ul>
+            </div>
+      </li>
+      <li><a href="Interfaces.html">Interfaces</a>
+      </li>
+    </ul>
+  </div>
+
+<!--Wat voor tekst komt er op deze website?-->
+<div class="box">
+  <h3>Welkom!</h3>
+  <p>Leuk dat je mijn website bezoekt! Hierop ga ik dingen vertellen over onder andere de logische laag, de fysieke laag, het 3-lagenmodel en nog veel meer! Veel plezier!.</p>
+  <img src="Inf. Homepagina afbeelding.jpg" alt="homepagina afbeelding" width="310" height="auto">
+</div>
+
+<!--Onderkant van de pagina-->
+<div class="footer">
+    <p1>Gemaakt door Eva Schreuder</p1>
+</div>
+
 </body>
 </html>
-
-    
-    <img src="0.jpg" alt="3lagenmodel" width="300" height="500">
-
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-div {
-  border: 1px solid gray;
-  padding: 8px;
-}
-
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: #4CAF50;
-}
-
-p {
-  text-indent: 50px;
-  text-align: justify;
-  letter-spacing: 3px;
-}
-
-a {
-  text-decoration: none;
-  color: #008CBA;
-}
-
-   
