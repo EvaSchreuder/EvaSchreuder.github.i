@@ -1,28 +1,56 @@
-<!DOCTYPE html><!-- de pagina over de toepassingenlaag-->
+<!DOCTYPE html>
 <html>
-  <head>
-    <title> Toepassingenlaag</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="opmaak.css">
-    
-  </head>
-  <body> 
-   Uitleg over de toepassingenlaag
-    <br>
-    <ul>
-      <li><a href="Home.html">Home</a></li>
-      <li><a href="3-lagenmodel.html">3-lagenmodel</a></li>
-      <li><a href="fysiekelaag.html">Fysiekelaag</a></li>
-      <li><a href="logische laag.html"> Logische laag</a> </li>
-      <li><a href= "apps en API.html"> Apps en API</a></li>
-      <li><a href= "interfaces.html"> Interfaces</a></li>
-      <li><a href= "moederbus en bus.html"> Moederbus en bus</a></li>
-      <li><a href= "operatingsystem.html"> Operatingsystem</a></li>
-      <li><a href= "processor en kloksnelheid.html"> Processor en kloksnelheid</a></li>
-      <li><a href= "RAM, ROM en permanent.html"> RAM, ROM en permanent</a></li>
-      <li><a href= "randapparatuur.html"> Randappratuur</a></li>
-  </ul>
-  
- 
-</body>
-</html>
+    <head>
+      <meta charset="UTF-8"/>
+      <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
+   <!-- CSS toevoegen aan de website-->
+      <link rel="stylesheet" href="opmaak.css">
+      <title>Toepassingenlaag </title>
+    </head>
+    <body>
+
+      <div class="Dropdown">
+        <h1 class="logo">Eva<span>Learning.</span></h1>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="3-lagenmodel.html">3-lagenmodel</a>
+<!-- Dropdown menu toevoegen-->
+            <div class="dropdown-laag1">
+              <ul>
+                <li><a href="logische laag.html">Logische laag</a></li>
+                <div class="dropdown-laag2">
+                  <ul>
+                    <li><a href="operatingsystem.html">Operatingsystem</a></li>
+                  </ul>
+                </div>
+              </li>
+                <li><a href="toepassingenlaag.html">Toepassingenlaag</a></li>
+                <div class="dropdown-laag2">
+                  <ul>
+                    <li><a href="apps en API.html">Apps en API</a></li>
+                  </ul>
+                </div>
+              </li>
+                <li>
+                  <a href="fysiekelaag.html">Fysieke laag <i class="fas fa-caret-right"></i></a>
+ <!-- De dropdown onder de fysieke laag-->                 
+                  <div class="dropdown-laag2">
+                    <ul>
+                      <li><a href="moederbus en bus.html">Moederbus en bus</a></li>
+                      <li><a href="randapparatuur.html">Randappratuur</a></li>
+                      <li><a href="RAM, ROM en permanent.html">RAM, ROM en permanent</a></li>
+                      <li><a href="processor en kloksnelheid.html">Processor en kloksnelheid</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+      </li>
+          <li><a href="interfaces.html">Interfaces <i class="fas fa-caret-down"></i></a>
+        </ul>
+      </div>
+
+      <div class="hero">
+        
+      </div>
+    </body>
