@@ -76,12 +76,12 @@ body {
 
 
 .logo {
-  color: var(--color-white);
+  color: white;
   font-size: 30px;
 }
 
 .logo span {
-  color: var(--color-white);
+  color: white);
 }
 
 .Dropdown {
