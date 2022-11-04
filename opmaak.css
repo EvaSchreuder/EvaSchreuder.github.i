@@ -92,7 +92,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 5%;
-  border-radius: 5%;
 
   position: relative;
 }
@@ -139,6 +138,7 @@ body {
   left: 0;
   top: 100%;
   background-color: rgba(0, 0, 0,0.8);
+  border-radius: 5%;
 }
 
 .Dropdown ul li:hover .dropdown-laag1 ul {
@@ -161,6 +161,7 @@ body {
   left: 150px;
   top: 0;
   background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5%;
 }
 
 
