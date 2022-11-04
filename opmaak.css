@@ -66,9 +66,11 @@ a {
 
 body {
   font-family: sans-serif;
-    height: calc(100vh - 80px);
     background-image: url(Achtergrond\ info.jpg);
     background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 
 
