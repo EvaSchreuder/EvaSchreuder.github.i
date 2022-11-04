@@ -83,7 +83,7 @@ body {
   color: var(--color-primary);
 }
 
-.menu-bar {
+.Dropdown {
   background-color: lightblue;
   height: 80px;
   width: 100%;
