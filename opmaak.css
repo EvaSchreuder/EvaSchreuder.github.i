@@ -161,3 +161,12 @@ body {
   background-image: url(Achtergrond\ info.jpg);
   background-position: center;
 }
+
+/*opmaak tekstvak*/
+.tekstvak {
+  background-color: beige;
+  border: 5px solid beige;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 50px 200px;
+}
