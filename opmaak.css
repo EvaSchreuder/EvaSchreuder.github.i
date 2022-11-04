@@ -167,6 +167,7 @@ body {
   display: block;
   background-color: #0a0b26;
   width: 100%;
+  height: 50px;
   margin: 10px;
   color: white;
   position: fixed;
