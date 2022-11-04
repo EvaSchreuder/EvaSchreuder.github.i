@@ -167,15 +167,12 @@ body {
   display: block;
   background-color: black;
   width: 100%;
-  padding: 25px;
-  border: 2px solid magenta;
-  margin: 25px;
+  margin: 0px;
   border-radius: 15px;
   color: white;
 
   font-size: 2em;
   text-align: center;
-  font-weight: bold;
 }
 
 
