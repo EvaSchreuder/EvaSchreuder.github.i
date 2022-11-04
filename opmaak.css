@@ -131,7 +131,7 @@ body {
   position: absolute;
   left: 0;
   top: 100%;
-  background-color: var(--color-black);
+  background-color: lightgoldenrodyellow;
 }
 
 .Dropdown ul li:hover .dropdown-laag1 ul {
@@ -153,7 +153,7 @@ body {
   position: absolute;
   left: 150px;
   top: 0;
-  background-color: var(--color-black);
+  background-color: lightgrey;
 }
 
 .hero {
