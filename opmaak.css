@@ -126,8 +126,8 @@ body {
 
 /*opmaak tekstvak*/
 .tekstvak {
-  background-color: beige;
-  border: 5px solid beige;
+  background-color: white;
+  border: 5px solid white;
   border-radius: 10px;
   padding: 50px;
   margin: 50px 200px;
