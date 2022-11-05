@@ -8,7 +8,7 @@
 /* - De font-family zorgt voor welk lettertype ik heb gebruikt 
    - background-image zorgt ervoor dat ik een foto op de achtergrond heb.
    - Bij background-size heb ik ingesteld dat de foto alles moet bedekken, dus full-screen.
-   Bij de overige instellingen zorg ik dat de afbeelding 1 keer is afgebeel, geen herhaling heeft en dat hij niet verspringt.
+   Bij de overige instellingen zorg ik dat de afbeelding 1 keer is afgebeeld, geen herhaling heeft en dat hij niet verspringt.
    */
 body {
   font-family:'Times New Roman', Times, serif;
@@ -16,6 +16,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.3);
   }
@@ -36,12 +37,23 @@ body {
 Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst gaat worden uitgelijnd.*/
 .Dropdown {
   background-color: rgba(0, 0, 0, 0.8);
+  /*dit is de dikte van de dropdown*/
+  
   height: 80px;
+  /* de breedte staat ingesteld op 100%, dat is zodat de dropdown precies goed is en niet te klein*/
+  
   width: 100%;
+  /* de elementen die onder de 'hoofd'blokken komen zijn even groot als de bovenstaande*/
+
   display: flex;
+  /* dit zorgt ervoor dat ze zogenoemde flexitems een spatie hebben tussen de regels*/
+
   justify-content: space-between;
+  /* de tekst die in de blokken komt staat precies in het midden*/
+
   align-items: center;
-  padding: 1,0%;
+  /* Naast de tekst is geen ruimte, 
+  padding: 0,5%;
   position: relative;
 }
 
