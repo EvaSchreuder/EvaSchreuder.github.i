@@ -52,9 +52,10 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   /* de tekst die in de blokken komt staat precies in het midden*/
 
   align-items: center;
-  /* Naast de tekst is geen ruimte, 
+  /* Naast de tekst is geen ruimte, aan de bovenkant zit een marge van 5%*/
   padding: 0,5%;
   position: relative;
+  /* de positie van de dropdown is ingesteld zodat hij de 'normale' positie aanneemt*/
 }
 
 .Dropdown ul {
