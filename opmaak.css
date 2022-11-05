@@ -26,7 +26,7 @@ body {
   color: white;
   font-size: 30px;
   font: weight 600px;
-  padding-left: 10% ;
+  padding-left: 5% ;
 
 }
 
@@ -40,25 +40,27 @@ body {
 Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst gaat worden uitgelijnd.*/
 .Dropdown {
   background-color: rgba(0, 0, 0, 0.8);
+  
   /*dit is de dikte van de dropdown*/
-  
   height: 80px;
+
   /* de breedte staat ingesteld op 100%, dat is zodat de dropdown precies goed is en niet te klein*/
-  
   width: 100%;
-  /* de elementen die onder de 'hoofd'blokken komen zijn even groot als de bovenstaande*/
 
+  /* de elementen die onder de 'hoofd'blokken komen zijn even groot als het bovenstaande element*/
   display: flex;
+
   /* dit zorgt ervoor dat ze zogenoemde flexitems een spatie hebben tussen de regels*/
-
   justify-content: space-between;
-  /* de tekst die in de blokken komt staat precies in het midden*/
 
+  /* de tekst die in de blokken komt staat precies in het midden*/
   align-items: center;
+
   /* Naast de tekst is geen ruimte, aan de bovenkant zit een marge van 5%*/
   padding: 0,5%;
-  position: relative;
+
   /* de positie van de dropdown is ingesteld zodat hij de 'normale' positie aanneemt*/
+  position: relative;
 }
 
 .Dropdown ul {
