@@ -83,6 +83,7 @@ body {
   background-color: rgba(0, 0, 0,0.8);
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
+  color: blueviolet;
 }
 
 .Dropdown ul li:hover .dropdown-laag1 ul {
