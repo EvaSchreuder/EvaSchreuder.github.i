@@ -24,8 +24,10 @@ body {
 /* Hieronder geef ik mijn logo een kleur en kies ik de grootte en dikte van de letters*/
 .logo {
   color: white;
-  font-size: 30px
-  font: weight 600px;;
+  font-size: 30px;
+  font: weight 600px;
+  padding-left: 10% ;
+
 }
 
 /*Ik voeg hier een tweede kleur toe aan het logo*/
