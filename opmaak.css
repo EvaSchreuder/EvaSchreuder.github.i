@@ -27,6 +27,7 @@ body {
   color: rgb(105, 159, 116));
 }
 
+
 .Dropdown {
   background-color: rgba(0, 0, 0, 0.8);
   height: 80px;
@@ -73,13 +74,14 @@ body {
 /* dropdown menu style */
 .dropdown-laag1 {
   display: none;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .Dropdown ul li:hover .dropdown-laag1 {
   display: block;
   position: absolute;
   left: 0;
-  top: 130%;
+  top: 100%;
   background-color: rgba(0, 0, 0,0.8);
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
