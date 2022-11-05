@@ -11,7 +11,7 @@
    Bij de overige instellingen zorg ik dat de afbeelding 1 keer is afgebeeld, geen herhaling heeft en dat hij niet verspringt.
    */
 body {
-  font-family:'Times New Roman', Times, serif;
+  font-family:'Lexend Deca', sans-serif;
   background-image: url(Achtergrond\ info.jpg);
   background-size: cover;
   background-position: center;
