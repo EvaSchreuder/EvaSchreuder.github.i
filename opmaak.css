@@ -82,11 +82,12 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   color: whitesmoke;
   text-decoration: none;
 
-  transition: all 0.3s;
+  
 }
 
 .Dropdown ul li a:hover {
   color: rgb(105, 159, 116);
+  transition: all 0.3s;
 }
 
 .fas {
@@ -109,7 +110,6 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   background-color: rgba(0, 0, 0,0.8);
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
-  color: blueviolet;
 }
 
 .Dropdown ul li:hover .dropdown-laag1 ul {
