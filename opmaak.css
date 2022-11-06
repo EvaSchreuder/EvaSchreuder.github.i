@@ -86,7 +86,8 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 }
 
 .Dropdown ul li a:hover {
-  color: lavender
+  color: lavender;
+  background-color: black;
 }
 
 .fas {
