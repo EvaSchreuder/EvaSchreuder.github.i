@@ -68,7 +68,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 
 .Dropdown ul {
   list-style: none;
-  display: inline-block;
+  display: flex;
 }
 
 .Dropdown ul li {
@@ -106,7 +106,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 }
 
 .Dropdown ul li:hover .dropdown-laag1 {
-  display: block;
+  display: inline-block;
   position: absolute;
   left: 0;
   top: 100%;
