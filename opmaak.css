@@ -51,7 +51,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   width: 100%;
 
   /* de elementen die onder de 'hoofd'blokken komen zijn even groot als het bovenstaande element*/
-  display: flex;
+  display: inline-block;
 
   /* dit zorgt ervoor dat ze zogenoemde flexitems een spatie hebben tussen de regels*/
   justify-content: space-between;
