@@ -88,6 +88,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 .Dropdown ul li a:hover {
   color: rgb(105, 159, 116);
   transition: all 0.3s;
+  overflow: auto;
 }
 
 .fas {
@@ -107,7 +108,6 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   position: absolute;
   left: 0;
   top: 100%;
-  overflow: auto;
   background-color: rgba(0, 0, 0,0.8);
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
@@ -134,6 +134,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   top: 0;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5%;
+  overflow: auto;
 }
 
 
