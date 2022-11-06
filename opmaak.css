@@ -73,7 +73,6 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   /* width: 120px; */
   padding: 10px 30px;
   /* text-align: center; */
-  flex: 0;
   position: relative;
 }
 
@@ -89,6 +88,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   color: rgb(105, 159, 116);
   transition: all 0.3s;
   overflow: auto;
+  flex: 0;
 }
 
 .fas {
