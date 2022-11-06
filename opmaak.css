@@ -41,6 +41,8 @@ body {
 Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst gaat worden uitgelijnd.*/
 .Dropdown {
   background-color: rgba(0, 0, 0, 0.8);
+  /*kleuren samenvoegen zodat de achtergrond wat licther is*/
+  background-blend-mode: multiply;
   
   /*dit is de dikte van de dropdown*/
   height: 80px;
