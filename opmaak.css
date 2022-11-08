@@ -79,7 +79,8 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 }
 
 .Dropdown ul li a {
-  font-size: 40px;
+  /*40*/
+  font-size: 15px;
   color: whitesmoke;
   text-decoration: none;
   transition: all 0.3s;  
