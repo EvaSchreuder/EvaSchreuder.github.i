@@ -146,12 +146,12 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   position: fixed;
   bottom: 0;
   left: 0;
-  margin-top: 40% /* ? */
+  margin-top: 20px /* ? */
 
-  font-size: 14px;
+/*  font-size: 14px;
   text-align: center;
   /*vertical-align: baseline;*/
-}
+}*/
 
 
 /*opmaak tekstvak, background-color is natuurlijk de achtergrondkleur, de andere instellingen zorgen voor de grote van het tekstvak*/
