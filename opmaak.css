@@ -59,8 +59,8 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   /* de tekst die in de blokken komt staat precies in het midden*/
   align-items: center;
 
-  /* Naast de tekst is geen ruimte, aan de bovenkant zit een marge van 5%*/
-  padding: 0,5%;
+  /* Naast de tekst is(nu wel 20 pixels) geen ruimte, aan de bovenkant zit een marge van 5%*/
+  padding: 20px,5%;
 
   /* de positie van de dropdown is ingesteld zodat hij de 'normale' positie aanneemt*/
   position: relative;
