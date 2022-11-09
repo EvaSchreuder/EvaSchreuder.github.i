@@ -151,13 +151,33 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   border-top: 1px white;
   justify-content: center;
   align-items: center;
-  
-
-  /*font-size: 14px;
-  text-align: center;
-  /*vertical-align: baseline;*/
+  font-size: 14px;
 }
 
+
+/* Social media knoppen basis stijl */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  color: rgb(105, 159, 116);
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+.fa-google {
+  background: rgba(0, 0, 0, 0);
+  color: white;
+}
 
 /*opmaak tekstvak, background-color is natuurlijk de achtergrondkleur, de andere instellingen zorgen voor de grote van het tekstvak*/
 .tekstvak {
