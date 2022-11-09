@@ -164,16 +164,19 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   text-decoration: none;
 }
 
+/* Social media hover effect, text groen maken en opacity veranderen */
 .fa:hover {
   color: rgb(105, 159, 116);
   opacity: 0.7;
 }
 
+/* Stijl instagram knop */
 .fa-instagram {
   background: rgba(0, 0, 0, 0);
   color: white;
 }
 
+/* Stijl google knop */
 .fa-google {
   background: rgba(0, 0, 0, 0);
   color: white;
