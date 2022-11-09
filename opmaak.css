@@ -164,7 +164,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   text-decoration: none;
 }
 
-/* Social media hover effect, text groen maken en opacity veranderen */
+/* Social media hover effect, text groen maken en tijd van hover effect veranderen */
 .fa:hover {
   color: rgb(105, 159, 116);
   transition: 0.3s;
