@@ -114,6 +114,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   position: absolute;
   left: 0;
   top: 100%;
+  padding: 20px;
   background-color: rgba(0, 0, 0,0.8);
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
@@ -143,6 +144,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   top: 0;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5%;
+  padding: 20px;
 }
 
 
