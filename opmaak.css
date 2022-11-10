@@ -94,13 +94,6 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   flex: 0;
 }
 
-/*Dit is het kleine pijltje in de dropdown, ik zorg dat hij rechts zit, dat er 10px ruimte is en dat er aan de bovenkant 3px ruimte is*/
-
-.fas {
-  float: right;
-  margin-left: 10px;
-  padding-top: 3px;
-}
 
 /* dropdown menu style, de kleur is hier doorzichtig gemaakt */
 .dropdown-laag1 {
