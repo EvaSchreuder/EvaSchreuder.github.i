@@ -205,6 +205,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 
 /* de opmaak van de knoppen*/
 .button{
+  text-align: center;
   display: inline-block;
   text-decoration: none;
   color: rgb(105, 159, 116);
