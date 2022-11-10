@@ -80,18 +80,23 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   position: relative;
 }
 
+/* de tekst is 15px groot, de kleur is wit, de tekst heeft geen decoratie en binnen 0,3 seconde is de kleur van de tekst anders als je erop staat met je muis*/
+
 .Dropdown ul li a {
   font-size: 15px;
-  color: whitesmoke;
+  color: white;
   text-decoration: none;
   transition: all 0.3s;  
 }
 
+/*Hier zorg ik dat de kleur verandert van wit naar groen, de overflow gaat automatisch*/
 .Dropdown ul li a:hover {
   color: rgb(105, 159, 116);
   overflow: auto;
   flex: 0;
 }
+
+/*Dit is het kleine pijltje in de dropdown, ik zorg dat hij rechts zit, dat er 10px ruimte is en dat er aan de bovenkant 3px ruimte is*/
 
 .fas {
   float: right;
