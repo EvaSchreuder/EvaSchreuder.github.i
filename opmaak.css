@@ -104,11 +104,13 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   padding-top: 3px;
 }
 
-/* dropdown menu style */
+/* dropdown menu style, de kleur is hier doorzichtig gemaakt */
 .dropdown-laag1 {
   display: none;
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+/*Hier stel ik de instellingen in voor de volgende dropdown laag, met de procenten geef ik aan hoe de zijkanten tegen elkaar aan moeten komen om overlap te voorkomen*/
 
 .Dropdown ul li:hover .dropdown-laag1 {
   display: inline-block;
@@ -120,16 +122,19 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   border-bottom-right-radius: 5%;
 }
 
+/* Ik geef aan dat het een blok moet zijn*/
 .Dropdown ul li:hover .dropdown-laag1 ul {
   display: block;
   margin: 10px;
 }
 
+/*Ik geef aan hoe groot het blok met zijn*/
 .Dropdown ul li:hover .dropdown-laag1 ul li {
   width: 150px;
   padding: 10px;
 }
 
+/*Al eerder commentaar bij zelfde soort code gegeven*/
 .dropdown-laag2 {
   display: none;
 }
@@ -144,6 +149,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 }
 
 
+/*De instellingen voor de footer, de achtergrondkleur, de hoogte en breedte, de kleur van de tekst, de positie, tekst in het midden*/
 .footer{
   display: flex;
   background-color: rgb(9, 9, 9);
@@ -161,7 +167,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 }
 
 
-/* Social media knoppen basis stijl */
+/* Social media knoppen basis stijl, grote van de knoppen, moet in het midden */
 .fa {
   padding: 20px;
   font-size: 30px;
