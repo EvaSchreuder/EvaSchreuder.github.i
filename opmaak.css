@@ -75,7 +75,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 
 /*In de dropdown zit er aan de zijkant 10px ruimte en aan de bovenkant 30px, de positie geeft natuurlijk de positie aan*/
 .Dropdown ul li {
- padding: 30px 35px;
+  padding: 30px 35px;
   position: relative;
 }
 
@@ -93,6 +93,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   color: rgb(105, 159, 116);
   overflow: auto;
   flex: 0;
+  background-color: blueviolet;
 }
 
 
@@ -139,6 +140,22 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5%;
   margin: 25px;
+}
+
+/*Al eerder commentaar bij zelfde soort code gegeven*/
+.dropdown-laag3 {
+  display: none;
+}
+
+.dropdown-laag1 ul li:hover .dropdown-laag3 {
+  display: block;
+  position: absolute;
+  left: 135px;
+  bottom: -35px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5%;
+  margin: 25px;
+
 }
 
 
