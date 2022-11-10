@@ -211,6 +211,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   color: rgb(105, 159, 116);
   /*de rand van de knop is 1px groot ik heb de kleur groen gemaakt, die overal terugkomt*/
   border: 1px solid rgb(105, 159, 116);
+  border-radius: 5%;
   padding: 11px 30px;
   font-size: 13px;
   /* Doordat de knop doorzichtig is zie je de witte achtergrond*/
