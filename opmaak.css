@@ -66,20 +66,21 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   position: relative;
 }
 
+/* Ik heb er hier voor gezorgd dat er geen ´ speciale ' elementen zijn*/
 .Dropdown ul {
   list-style: none;
   display: flex;
 }
 
+/*In de dropdown zit er aan de zijkant 10px ruimte en aan de bovenkant 30px, de positie geeft natuurlijk de positie aan*/
+
 .Dropdown ul li {
-  /* width: 120px; */
-  padding: 10px 30px;
-  /* text-align: center; */
+   padding: 10px 30px;
+  
   position: relative;
 }
 
 .Dropdown ul li a {
-  /*40*/
   font-size: 15px;
   color: whitesmoke;
   text-decoration: none;
