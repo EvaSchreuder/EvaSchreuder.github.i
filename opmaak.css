@@ -93,7 +93,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   color: rgb(105, 159, 116);
   overflow: auto;
   flex: 0;
-  background-color: rgb(43, 174, 226);
+  background-color: rgb(226, 223, 43);
 }
 
 /*Dit is het kleine pijltje in de dropdown, ik zorg dat hij rechts zit, dat er 10px ruimte is en dat er aan de bovenkant 3px ruimte is*/
@@ -128,7 +128,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 
 /*Ik geef aan hoe groot het blok met zijn*/
 .Dropdown ul li:hover .dropdown-laag1 ul li {
-  width: 150px;
+  width: 100px;
   padding: 10px;
 }
 
@@ -144,7 +144,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   top: 0;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5%;
-  padding: 20px;
+  padding: 10px;
 }
 
 
