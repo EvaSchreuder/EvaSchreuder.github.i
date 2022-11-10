@@ -75,7 +75,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 
 /*In de dropdown zit er aan de zijkant 10px ruimte en aan de bovenkant 30px, de positie geeft natuurlijk de positie aan*/
 .Dropdown ul li {
-  padding: 30px 35px;
+ padding: 30px 35px;
   position: relative;
 }
 
