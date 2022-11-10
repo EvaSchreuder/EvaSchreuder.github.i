@@ -124,9 +124,9 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 /*Ik geef aan hoe groot het blok met zijn*/
 .Dropdown ul li:hover .dropdown-laag1 ul li {
   /*dit was 160*/
-  width: 100px;
+  width: 140px;
   /* dit gaat misschien weg*/
-  padding: 10px;
+  padding: 0px;
 }
 
 /*Al eerder commentaar bij zelfde soort code gegeven*/
