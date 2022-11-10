@@ -60,7 +60,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   align-items: center;
 
   /* Naast de tekst is(nu wel 20 pixels) geen ruimte, aan de bovenkant zit een marge van 5%*/
-  padding: 20px 5%;
+  padding: 20px,5%;
 
   /* de positie van de dropdown is ingesteld zodat hij de 'normale' positie aanneemt*/
   position: relative;
@@ -70,12 +70,11 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 .Dropdown ul {
   list-style: none;
   display: flex;
-  width: 10%;
 }
 
 /*In de dropdown zit er aan de zijkant 10px ruimte en aan de bovenkant 30px, de positie geeft natuurlijk de positie aan*/
 .Dropdown ul li {
-  padding: 10px, 30px;
+  padding: 10px 30px;
   position: relative;
 }
 
@@ -93,10 +92,10 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   color: rgb(105, 159, 116);
   overflow: auto;
   flex: 0;
-  background-color: rgb(226, 223, 43);
 }
 
 /*Dit is het kleine pijltje in de dropdown, ik zorg dat hij rechts zit, dat er 10px ruimte is en dat er aan de bovenkant 3px ruimte is*/
+
 .fas {
   float: right;
   margin-left: 10px;
@@ -110,6 +109,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 }
 
 /*Hier stel ik de instellingen in voor de volgende dropdown laag, met de procenten geef ik aan hoe de zijkanten tegen elkaar aan moeten komen om overlap te voorkomen*/
+
 .Dropdown ul li:hover .dropdown-laag1 {
   display: inline-block;
   position: absolute;
@@ -128,7 +128,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 
 /*Ik geef aan hoe groot het blok met zijn*/
 .Dropdown ul li:hover .dropdown-laag1 ul li {
-  width: 100px;
+  width: 150px;
   padding: 10px;
 }
 
@@ -144,7 +144,6 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   top: 0;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5%;
-  padding: 10px;
 }
 
 
