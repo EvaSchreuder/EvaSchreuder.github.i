@@ -207,7 +207,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 .button{
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  align-items: center;
   display: inline-block;
   text-decoration: none;
   color: rgb(105, 159, 116);
