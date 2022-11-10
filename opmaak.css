@@ -223,3 +223,13 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
     /* de kleur overgang doet een halve seconde over*/
     transition: 0.5s;
  }
+
+ .img.apps en api{
+  /*het geven van ronde randen aan plaatje*/
+  border-radius: 10px;
+ 
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
