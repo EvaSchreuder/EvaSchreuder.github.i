@@ -216,6 +216,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   margin: 50px 200px;
 }
 
+/*Hier zorg ik dat er tussen de alinea's een 'enter' zit, dus een witregel*/
 .tekstvak p{
   margin-top: 15px;
 }
