@@ -214,6 +214,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   border-radius: 10px;
   padding: 50px;
   margin: 50px 200px;
+  margin-top: 15px;
 }
 
 /*Hier zorg ik dat er tussen de alinea's een 'enter' zit, dus een witregel*/
