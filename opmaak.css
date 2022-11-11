@@ -216,6 +216,9 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   margin: 50px 200px;
 }
 
+.tekstvak p{
+  margin: top 15px;
+}
 /* de opmaak van de knoppen*/
 .button{
   align-items: center;
