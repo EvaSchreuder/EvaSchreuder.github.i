@@ -217,7 +217,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
 }
 
 .tekstvak p{
-  margin: top 15px;
+  margin-top: 15px;
 }
 /* de opmaak van de knoppen*/
 .button{
