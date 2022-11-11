@@ -93,7 +93,7 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   color: rgb(105, 159, 116);
   overflow: auto;
   flex: 0;
-  background-color: rgb(226, 183, 43);
+  background-color: rgb(43, 226, 195);
 }
 
 
@@ -126,7 +126,8 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   /*dit was 160*/
   width: 140px;
   /* dit gaat misschien weg*/
-  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*Al eerder commentaar bij zelfde soort code gegeven*/
