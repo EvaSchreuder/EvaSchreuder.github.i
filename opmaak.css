@@ -110,8 +110,8 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   left: 0;
   top: 100%;
   background-color: rgb(0, 0, 0);
-  border-bottom-left-radius: 5%;
-  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 /* Ik geef aan dat het een blok moet zijn*/
@@ -139,7 +139,8 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   left: 160px;
   bottom: -10px;
   background-color: rgb(0, 0, 0);
-  border-radius: 5%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   /* dit is ook veranderd*/
   margin: 0px;
 }
@@ -155,9 +156,10 @@ Daarnaast heb ik ingesteld hoe groot de 'blokken' moeten worden en hij de tekst 
   left: 135px;
   top: -35px;
   background-color: rgb(0, 0, 0);
-  border-radius: 5%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   margin: 25px;
-
 }
 
 
